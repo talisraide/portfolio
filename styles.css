@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    height: 80px;
+}
+
+.top-bar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 0 20px;
+}
+
+.top-bar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 38px;
+}
+
+.top-bar a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Section intro */
+.section-intro {
+    background-color: #D8F0F1;
+    height: 500px;
+}
+
+.section-intro h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.section-intro p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-intro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: solid black 4px;
+}
+.section-intro .container {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-intro button{
+    background-color: #564787;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px,;
+}
+
+.section-intro .social-icons{
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.section-intro .social-icons box-icon {
+    size: 24px;
+}
+
+.section-intro .social-icons i {
+    size: 24px;
+}
